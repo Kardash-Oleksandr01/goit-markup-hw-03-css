@@ -1,0 +1,178 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+/* Навігація */
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2e2f42; 
+  letter-spacing: 0.02em;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* Контакти */
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
+  line-height: 1.5;
+  color: #434455; 
+  letter-spacing: 0.02em;
+
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+.section-hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.main-text {
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.02em; /* вимога ментора */
+}
+
+.btn-primary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em; /* вимога ментора */
+  color: #ffffff;
+  background-color: #4D5AE5;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #404BBF;
+}
+
+/* Section 2 */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+
+}
+
+.feature-text {
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+/* Section 3 */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+
+}
+
+.team-item {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+
+.team-item .feature-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Section 4 */
+.section-portfolio {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+
+
+.item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+
+.logo-twopart {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
