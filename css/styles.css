@@ -16,7 +16,7 @@ body {
 }
 
 img {
-  display: block;          /* вимога автоперевірки */
+  display: block;          
   max-width: 100%;
   height: auto;
 }
@@ -34,9 +34,9 @@ a {
 
 /* ====== Utilities ====== */
 .container {
-  width: 1158px;           /* вимога автоперевірки */
-  margin: 0 auto;          /* центрування */
-  padding: 0 15px;         /* внутрішні відступи */
+  width: 1158px;           
+  margin: 0 auto;          
+  padding: 0 15px;         
 }
 
 .visually-hidden {
@@ -69,31 +69,31 @@ a {
 
 /* ====== Header ====== */
 .site-header {
-  border-bottom: 1px solid #e7e9fc; /* вимога автоперевірки */
+  border-bottom: 1px solid #e7e9fc; 
 }
 
 .header-container {
-  display: flex;           /* розміщення навігації та контактів в один ряд */
+  display: flex;           
   align-items: center;
   justify-content: space-between;
 }
 
 .main-nav {
   display: flex;
-  align-items: center;     /* вирівнювання по вертикалі */
+  align-items: center;     
 }
 
 .header-logo {
-  margin-right: 76px;      /* відступ від логотипа */
+  margin-right: 76px;      
 }
 
 .nav-list {
   display: flex;
-  gap: 40px;               /* відступи між пунктами меню */
+  gap: 40px;               
 }
 
 .nav-link {
-  padding: 24px 0;         /* відступи всередині посилань меню */
+  padding: 24px 0;         
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,7 +112,7 @@ a {
 
 .contact-list {
   display: flex;
-  gap: 40px;               /* відступи між контактами */
+  gap: 40px;               
 }
 
 .contact-link {
@@ -128,14 +128,13 @@ a {
 
 /* ====== Hero (Section 1) ====== */
 .hero {
-  padding: 188px 0;        /* вимога автоперевірки */
+  padding: 188px 0;        
   background-color: #2e2f42;
   text-align: center;
 }
 
 .hero-title {
-  max-width: 496px;        /* вимога автоперевірки */
-  margin: 0 auto 48px;
+  max-width: 496px;        
   color: #fff;
   font-size: 56px;
   line-height: 1.07;
@@ -144,11 +143,11 @@ a {
 }
 
 .hero-btn {
-  display: block;          /* щоб можна було центрувати margin'ом */
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--iris, #4d5ae5); /* з css-змінною */
+  background-color: var(--iris, #4d5ae5);
   border-radius: 4px;
   cursor: pointer;
   color: #fff;
@@ -166,7 +165,7 @@ a {
 
 /* ====== Features (Section 2) ====== */
 .features {
-  padding: 120px 0;        /* вимога автоперевірки */
+  padding: 120px 0;        
 }
 
 .features-list {
@@ -175,11 +174,26 @@ a {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4); /* вимога автоперевірки */
+  width: calc((100% - 72px) / 4); 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
 .feature-title {
-  margin-bottom: 8px;      /* вимога автоперевірки */
+  margin-bottom: 8px;      
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -195,12 +209,12 @@ a {
 
 /* ====== Team (Section 3) ====== */
 .team {
-  padding: 120px 0;        /* вимога автоперевірки */
+  padding: 120px 0;        
   background-color: #f4f4fd;
 }
 
 .section-title {
-  margin-bottom: 72px;     /* вимога автоперевірки */
+  margin-bottom: 72px;     
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -215,19 +229,18 @@ a {
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);            /* вимога автоперевірки */
+  width: calc((100% - 72px) / 4);            
   background-color: #fff;
-  border-radius: 0 0 4px 4px;                /* вимога автоперевірки */
+  border-radius: 0 0 4px 4px;                
   overflow: hidden;
 }
 
 .team-card {
-  padding: 32px 0;                            /* вимога автоперевірки */
-}
+  padding: 32px 0;}                     
 
 .team-name {
-  text-align: center;                          /* вимога автоперевірки */
-  margin: 0 0 8px;                             /* вимога автоперевірки */
+  text-align: center;                          
+  margin: 0 0 8px;                             
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -236,8 +249,7 @@ a {
 }
 
 .team-role {
-  text-align: center;                          /* вимога автоперевірки */
-  margin: 0;
+  text-align: center;                          
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -247,29 +259,29 @@ a {
 /* ====== Portfolio (Section 4) ====== */
 .portfolio {
   padding-top: 120px;
-  padding-bottom: 120px;    /* вимога автоперевірки */
+  padding-bottom: 120px;    
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;         /* вимога автоперевірки */
-  row-gap: 48px;            /* вимога автоперевірки */
+  column-gap: 24px;        
+  row-gap: 48px;            
 }
 
 .portfolio-item {
-  width: calc((100% - 48px) / 3); /* вимога автоперевірки */
+  width: calc((100% - 48px) / 3); 
   background-color: #fff;
 }
 
 .portfolio-card {
-  padding: 32px 16px;       /* вимога автоперевірки */
-  border: 1px solid #e7e9fc;/* вимога автоперевірки */
-  border-top: none;         /* вимога автоперевірки */
+  padding: 32px 16px;       
+  border: 1px solid #e7e9fc;
+  border-top: none;         
 }
 
 .item-title {
-  margin: 0 0 8px;          /* вимога автоперевірки */
+  margin: 0 0 8px;          
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -287,13 +299,13 @@ a {
 
 /* ====== Footer ====== */
 .site-footer {
-  padding: 100px 0;         /* вимога автоперевірки */
+  padding: 100px 0;         
   background-color: #2e2f42;
 }
 
 .footer-logo {
-  display: inline-block;    /* вимога автоперевірки */
-  margin-bottom: 16px;      /* вимога автоперевірки */
+  display: inline-block;   
+  margin-bottom: 16px;      
 }
 
 .site-footer .logo-part {
@@ -301,7 +313,7 @@ a {
 }
 
 .footer-text {
-  max-width: 264px;         /* вимога автоперевірки */
+  max-width: 264px;         
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
